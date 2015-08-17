@@ -1,5 +1,9 @@
 Change History for XML-DOM:
 
+1.45 (tjmather) 08/16/2015
+- Fix pod errors and a typo ( Florian Schlichting )
+- properly encode output for printToFile ( Martin Ferrari, Gregor Herrmann )
+
 1.44 (tjmather) 07/25/2005
 - Only use 'use bytes' where needed (by XML::RegExp) (Gisle Aas)
 
