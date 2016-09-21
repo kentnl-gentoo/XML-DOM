@@ -17,7 +17,7 @@ sub MY::libscan
 # See lib/ExtUtils/MakeMaker.pm for details of how to influence
 # the contents of the Makefile that is written.
 WriteMakefile(
-    NAME	=> 'XML-DOM',
+    NAME	=> 'XML::DOM',
     VERSION_FROM => 'lib/XML/DOM.pm',
                    # XML::Parser 2.28 and above work, but make test
                    # doesn't pass because of different ways

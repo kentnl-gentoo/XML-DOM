@@ -1,5 +1,8 @@
 Change History for XML-DOM:
 
+1.46 (tjmather) 09/21/2016
+- Correct name passed to WriteMakefile to XML::DOM (was XML/Dom)
+
 1.45 (tjmather) 08/16/2015
 - Fix pod errors and a typo ( Florian Schlichting )
 - properly encode output for printToFile ( Martin Ferrari, Gregor Herrmann )

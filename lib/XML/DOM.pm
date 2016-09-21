@@ -39,7 +39,7 @@ use XML::RegExp;
 BEGIN
 {
     require XML::Parser;
-    $VERSION = '1.45';
+    $VERSION = '1.46';
 
     my $needVersion = '2.28';
     die "need at least XML::Parser version $needVersion (current=${XML::Parser::VERSION})"
