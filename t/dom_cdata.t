@@ -1,6 +1,7 @@
 BEGIN {print "1..3\n";}
 END {print "not ok 1\n" unless $loaded;}
 use XML::DOM;
+use lib 't/lib';
 use CheckAncestors;
 use CmpDOM;
 $loaded = 1;

@@ -9,6 +9,7 @@
 BEGIN {print "1..4\n";}
 END {print "not ok 1\n" unless $loaded;}
 use XML::DOM;
+use lib 't/lib';
 use CmpDOM;
 $loaded = 1;
 print "ok 1\n";

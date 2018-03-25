@@ -1,7 +1,7 @@
 BUGS
 Changes
-CheckAncestors.pm		Used by test cases in t/
-CmpDOM.pm			Used by test cases in t/
+t/lib/CheckAncestors.pm		Used by test cases in t/
+t/lib/CmpDOM.pm			Used by test cases in t/
 FAQ.xml
 MANIFEST			This file.
 Makefile.PL
